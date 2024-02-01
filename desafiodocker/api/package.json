@@ -1,0 +1,19 @@
+{
+  "name": "api-docker",
+  "version": "1.0.0",
+  "description": "Api de um container",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Leonardo Bonetti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  }
+}
