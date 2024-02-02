@@ -9,8 +9,8 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Descricao](##Descricao)
-   * [Pre-Requisitos](##Pre-Requisitos)
+   * [Descricao](#Descricao)
+   * [Pre-Requisitos](#Pre-Requisitos)
 <!--te-->
 
 ## Descricao
