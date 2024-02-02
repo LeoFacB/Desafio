@@ -1,6 +1,4 @@
 # Desafio Docker
-[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://github.com/LeoFacB/Desafio)
-[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://github.com/LeoFacB/Desafio)
 
 <h4 align="center"> 
 	🚧   Em construção...  🚧
@@ -12,7 +10,7 @@ Tabela de conteúdos
    * [Descricao](#Descricao)
    * [Pre-Requisitos](#Pre-Requisitos)
    * [Inicializando o Projeto](#Inicializando-o-Projeto)
-   * [Acesso a aplicação](#Acesso-a-aplicaçao)
+   * [Acesso a aplicação](#Acesso-a-aplicação)
 <!--te-->
 
 ## Descricao
