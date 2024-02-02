@@ -11,8 +11,8 @@ Tabela de conteúdos
 <!--ts-->
    * [Descricao](#Descricao)
    * [Pre-Requisitos](#Pre-Requisitos)
-   * [Inicializando o Projeto](#InicializandooProjeto)
-   * [Acesso a aplicação](#Acessoaaplicaçao)
+   * [Inicializando o Projeto](#Inicializando-o-Projeto)
+   * [Acesso a aplicação](#Acesso-a-aplicaçao)
 <!--te-->
 
 ## Descricao
