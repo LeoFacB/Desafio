@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS info(
 
 );
 
+
 INSERT INTO info (Nome, Sobrenome, Cargo, Salario) VALUES ('Alberto', 'Costa', 'Analista de Sistemas', 13456);
 INSERT INTO info (Nome, Sobrenome, Cargo, Salario) VALUES ('Ana', 'Mendes', 'Desenvolvedora Web', 12000);
 INSERT INTO info (Nome, Sobrenome, Cargo, Salario) VALUES ('Julia', 'Pereira', 'Analista de Sistemas', 13456);
