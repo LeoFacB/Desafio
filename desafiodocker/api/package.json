@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "api-docker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,8 @@
   "author": "Leonardo Bonetti",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.1",
     "express": "^4.18.2",
-    "mysql": "^2.18.1",
     "mysql2": "^3.9.1"
   }
 }

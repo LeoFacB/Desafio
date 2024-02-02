@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   db_docker:
-    image: mysql:8.0.36-debian
+    image: mysql:5.7.44
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: senha
@@ -14,7 +14,7 @@ services:
     build:
       context: ./api
       dockerfile: Dockerfile
-    container_name: node-container
+    container_name: nodecontainer
     restart: always
     volumes:
       - api-data:/var/lib/mysql
@@ -22,6 +22,14 @@ services:
       - "3000:3000"
     depends_on:
       - db_docker
+  website:
+    build:
+      context: ./website
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
 volumes:
   db_data:
   api-data:

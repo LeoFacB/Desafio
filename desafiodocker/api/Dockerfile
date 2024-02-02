@@ -1,7 +1,7 @@
 FROM node:16-slim
 WORKDIR /home/node/app
 
-COPY . .
+COPY package.json .
 COPY src/index.js .
 RUN npm install
 

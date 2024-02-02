@@ -11,6 +11,10 @@ CREATE TABLE IF NOT EXISTS info(
 
 );
 
+CREATE USER IF NOT EXISTS 'mysql_u'@'%' IDENTIFIED BY 'senha';
+GRANT ALL PRIVILEGES ON *.* TO 'mysql_u'@'%'; 
+FLUSH PRIVILEGES;
+
 
 INSERT INTO info (Nome, Sobrenome, Cargo, Salario) VALUES ('Alberto', 'Costa', 'Analista de Sistemas', 13456);
 INSERT INTO info (Nome, Sobrenome, Cargo, Salario) VALUES ('Ana', 'Mendes', 'Desenvolvedora Web', 12000);
