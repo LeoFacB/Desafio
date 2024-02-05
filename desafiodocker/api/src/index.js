@@ -1,6 +1,6 @@
 var express = require ('express');
 var mysql2 = require('mysql2/promise');
-var dotenv= require('dotenv')
+var dotenv= require('dotenv');
 
 const app = express();
 dotenv.config();
@@ -10,7 +10,7 @@ const server = app.listen(3000, '0.0.0.0');
 const connection = () => mysql2.createConnection({
     host: 'db_docker',
     port: '3306',
-    user: "mysql_u",
+    user: "root",
     password: "senha",
     database: 'funcionarios'
 })
