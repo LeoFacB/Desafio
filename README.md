@@ -36,7 +36,7 @@ docker-compose up
 ```
 3- Verifique se foi levantado todos os contênieres com:
 ```
-docker-compose up
+docker ls
 ```
 O resultado esperado deve ser parecido com:
 ```
