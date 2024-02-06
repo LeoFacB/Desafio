@@ -58,7 +58,10 @@ $ tree
 
 O arquivo .env deve ter o seguinte codigo:
 ```
-MYSQL_ROOT_PASSWORD=<sua senha>
+MYSQL_ROOT_PASSWORD=<senha_root>
+MYSQL_USER=<usuario>
+MYSQL_PASSWORD=<senha_uuario>
+MYSQL_DATABASE=<database>
 ```
 
 
