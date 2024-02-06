@@ -9,9 +9,10 @@ Tabela de conteúdos
 <!--ts-->
    * [Descricao](#Descricao)
    * [Pre-Requisitos](#Pre-Requisitos)
+   * [Criando o .env](#Criando-o-.env)
    * [Inicializando o Projeto](#Inicializando-o-Projeto)
       * [Docker-Compose](#Docker-Compose)
-      * [Podman](#Podman)
+      * [Podman](#Podman) 
    * [Acesso a aplicação](#Acesso-a-aplicação)
 <!--te-->
 
@@ -25,6 +26,35 @@ Para rodas a aplicação é necessário ja ter instalado em sua máquina:
 
 - Docker v.24.0.7
 - Docker-Compose v.2.23.3
+
+
+## Criando o .env
+
+Para a aplicação funcionar é necessário um arquivo .env na raiz do projeto como demonstrado:
+``` shell
+
+$ tree
+.
+├── api
+│   ├── database
+│   │   └── script.sql
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── package-lock.json
+│   └── src
+│       └── index.js
+├── docker-compose.yml
+├── .env    <------------------------
+└── website
+    ├── Dockerfile
+    └── index.php
+```
+
+O arquivo .env deve ter o seguinte codigo:
+```
+MYSQL_ROOT_PASSWORD=<sua senha>
+```
+
 
 ## Inicializando o Projeto
 
