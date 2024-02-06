@@ -1,9 +1,9 @@
 var express = require ('express');
 var mysql2 = require('mysql2/promise');
-var dotenv= require('dotenv');
+require('dotenv').config();
+
 
 const app = express();
-dotenv.config();
 const server = app.listen(3000, '0.0.0.0');
 
 //Funcao para se conectar-se ao banco de dados
@@ -11,7 +11,7 @@ const connection = () => mysql2.createConnection({
     host: 'db_docker',
     port: '3306',
     user: "root",
-    password: "senha",
+    password: process.env.MYSQL_ROOT_PASSWORD,
     database: 'funcionarios'
 })
 
