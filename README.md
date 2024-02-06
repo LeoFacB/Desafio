@@ -7,8 +7,8 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Descricao](#Descricao)
-   * [Pre-Requisitos](#Pre-Requisitos)
+   * [Descrição](#Descrição)
+   * [Pré-Requisitos](#Pré-Requisitos)
    * [Criando o .env](#Criando-o-.env)
    * [Inicializando o Projeto](#Inicializando-o-Projeto)
       * [Docker-Compose](#Docker-Compose)
@@ -16,7 +16,7 @@ Tabela de conteúdos
    * [Acesso a aplicação](#Acesso-a-aplicação)
 <!--te-->
 
-## Descricao
+## Descrição
 
 Este é um projeto é uma aplicação web que cria uma lista de funcionários e disponibiliza. É utilizado um ambiente Docker com as tecnologia Ubuntu, Node, PHP e MySQL 
 
@@ -26,7 +26,7 @@ Este é um projeto é uma aplicação web que cria uma lista de funcionários e 
          API/NODE-->WEB/PHP;
    ```
 
-## Pre-Requisitos
+## Pré-Requisitos
 
 Para rodas a aplicação é necessário ja ter instalado em sua máquina:
 
