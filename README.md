@@ -12,9 +12,6 @@ Tabela de conteúdos
    * [Inicializando o Projeto](#Inicializando-o-Projeto)
       * [Docker-Compose](#Docker-Compose)
       * [Podman](#Podman)
-   * [Docker-Compose](#Docker-Compose) 
-   * [Docker](#Docker)
-   * [Podman](#Podman)
    * [Acesso a aplicação](#Acesso-a-aplicação)
 <!--te-->
 
