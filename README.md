@@ -20,6 +20,12 @@ Tabela de conteúdos
 
 Este é um projeto é uma aplicação web que cria uma lista de funcionários e disponibiliza. É utilizado um ambiente Docker com as tecnologia Ubuntu, Node, PHP e MySQL 
 
+```mermaid
+     graph LR;
+         DB/MYSQL-->API/NODE;
+         API/NODE-->WEB/PHP;
+   ```
+
 ## Pre-Requisitos
 
 Para rodas a aplicação é necessário ja ter instalado em sua máquina:
