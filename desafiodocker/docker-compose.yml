@@ -5,6 +5,11 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
     volumes:
       - ./api/database/script.sql:/docker-entrypoint-initdb.d/init.sql
       - db_data:/var/lib/mysql
@@ -21,7 +26,8 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - db_docker
+      db_docker:
+        condition: service_healthy
   website:
     build:
       context: ./website
