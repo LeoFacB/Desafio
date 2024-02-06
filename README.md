@@ -10,6 +10,11 @@ Tabela de conteúdos
    * [Descricao](#Descricao)
    * [Pre-Requisitos](#Pre-Requisitos)
    * [Inicializando o Projeto](#Inicializando-o-Projeto)
+      * [Docker-Compose](#Docker-Compose)
+      * [Podman](#Podman)
+   * [Docker-Compose](#Docker-Compose) 
+   * [Docker](#Docker)
+   * [Podman](#Podman)
    * [Acesso a aplicação](#Acesso-a-aplicação)
 <!--te-->
 
@@ -25,6 +30,8 @@ Para rodas a aplicação é necessário ja ter instalado em sua máquina:
 - Docker-Compose v.2.23.3
 
 ## Inicializando o Projeto
+
+### Docker-Compose
 
 1- Abra o arquivo e no o terminal após tudo instalado e digite:
 ```
@@ -46,9 +53,14 @@ f8d6c0099217   desafiodocker-api       "docker-entrypoint.s…"   About an hour 
 a357603b8056   mysql:5.7.44            "docker-entrypoint.s…"   About an hour ago   Up About an hour   
 ```
 
+### Podman
+
+
+
 ## Acesso a aplicação
 
 Com tudo pronto e rodando pode se acessar a aplicação digitando em qualquer navegador: 
+
 API
 ```
 http://localhost:3000/funcionarios
