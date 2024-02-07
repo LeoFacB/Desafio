@@ -11,6 +11,11 @@
     th, td{
         text-align: center;
     }
+    th{
+        background-color: #23238E;
+        color: #fff;
+    }
+
 </style>
 <head>
     <meta charset="UTF-8">
@@ -18,6 +23,7 @@
     <title>Lista Funcionários</title>
 </head>
 <body>
+    <h1>Lista de Funcionários</h1>
     <?php
         $resultado= file_get_contents("http://nodecontainer:3000/funcionarios");
         $funcionarios= json_decode($resultado);
