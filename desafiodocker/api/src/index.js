@@ -11,9 +11,9 @@ process.env.<variavel> indica a variavel localizado no arquivo .env*/
 const connection = () => mysql2.createConnection({
     host: 'db_docker',
     port: '3306',
-    user: "root",
-    password: process.env.MYSQL_ROOT_PASSWORD,
-    database: 'funcionarios'
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DATABASE
 })
 
 /*Envia uma mensagem para indicar o funcionamento*/
