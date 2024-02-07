@@ -50,7 +50,7 @@ $ tree
 │   └── src
 │       └── index.js
 ├── docker-compose.yml
-├── .env    <------------------------
+├── .env    <-----------------------------------------------------------
 └── website
     ├── Dockerfile
     └── index.php
