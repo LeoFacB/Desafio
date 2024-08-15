@@ -1,9 +1,5 @@
 # Desafio Docker
 
-<h4 align="center"> 
-	🚧   Em construção...  🚧
-</h4>
-
 Tabela de conteúdos
 =================
 <!--ts-->
